@@ -1,4 +1,4 @@
-FROM 12.11.0-alpine
+FROM node:12.11.0-alpine
 
 WORKDIR /opt/api
 COPY --chown=node . .
