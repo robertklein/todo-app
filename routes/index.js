@@ -1,5 +1,5 @@
-import express from 'express';
-import TodoController from '../todosController/todos';
+const express = require('express');
+const TodoController = require('../todosController/todos');
 
 const router = express.Router();
 

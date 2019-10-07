@@ -1,6 +1,6 @@
 /* eslint-disable class-methods-use-this */
-import db from '../db/db';
-import models from '../models';
+const db = require('../db/db');
+const models = require('../models');
 
 class TodosController {
   getAllTodos(req, res) {
