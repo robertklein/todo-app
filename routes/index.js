@@ -9,4 +9,4 @@ router.post('/api/v1/todos', TodoController.createTodo);
 router.put('/api/v1/todos/:id', TodoController.updateTodo);
 router.delete('/api/v1/todos/:id', TodoController.deleteTodo);
 
-export default router;
+module.exports = router;
